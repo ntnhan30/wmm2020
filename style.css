@@ -1,0 +1,617 @@
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 300;
+  font-style: normal;
+  src:
+  url("fonts/CorpidC1-Light.eot?#iefix") format("embedded-opentype"),
+  url("fonts/CorpidC1-Light.woff") format("woff"),
+  url("fonts/CorpidC1s-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 300;
+  font-style: italic;
+  src: url("fonts/CorpidC1s-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 400;
+  font-style: normal;
+  src:
+  url("fonts/CorpidC1-Regular.eot?#iefix") format("embedded-opentype"),
+  url("fonts/CorpidC1-Regular.woff") format("woff"),
+  url("fonts/CorpidC1s-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 400;
+  font-style: italic;
+  src:
+  url("fonts/CorpidC1-RegularItalic.eot?#iefix") format("embedded-opentype"),
+  url("fonts/CorpidC1-RegularItalic.woff") format("woff"),
+  url("fonts/CorpidC1s-RegularItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 700;
+  font-style: normal;
+  src:
+  url("fonts/CorpidC1-Bold.eot?#iefix") format("embedded-opentype"),
+  url("fonts/CorpidC1-Bold.woff") format("woff"),
+  url("fonts/CorpidC1s-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 700;
+  font-style: italic;
+  src:
+  url("fonts/CorpidC1-BoldItalic.eot?#iefix") format("embedded-opentype"),
+  url("fonts/CorpidC1-BoldItalic.woff") format("woff"),
+  url("fonts/CorpidC1s-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 800;
+  font-style: normal;
+  src:
+  url("fonts/CorpidC1-Heavy.eot?#iefix") format("embedded-opentype"),
+  url("fonts/CorpidC1-Heavy.woff") format("woff"),
+  url("fonts/CorpidC1s-Heavy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 800;
+  font-style: italic;
+  src: url("fonts/CorpidC1s-HeavyItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 900;
+  font-style: normal;
+  src:
+  url("fonts/CorpidC1-Black.eot?#iefix") format("embedded-opentype"),
+  url("fonts/CorpidC1-Black.woff") format("woff"),
+  url("fonts/CorpidC1s-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Corpid';
+  font-weight: 900;
+  font-style: italic;
+  src: url("fonts/CorpidC1s-BlackItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7ro5hl');
+  src:  url('fonts/icomoon.eot?7ro5hl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7ro5hl') format('truetype'),
+    url('fonts/icomoon.woff?7ro5hl') format('woff'),
+    url('fonts/icomoon.svg?7ro5hl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9wqxd9');
+  src:  url('fonts/icomoon.eot?9wqxd9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9wqxd9') format('truetype'),
+    url('fonts/icomoon.woff?9wqxd9') format('woff'),
+    url('fonts/icomoon.svg?9wqxd9#icomoon') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-where:before {
+  content: "\e900";
+}
+.icon-what:before {
+  content: "\e904";
+}
+.icon-when:before {
+  content: "\e902";
+}
+.icon-who:before {
+  content: "\e903";
+}
+
+*{
+	font-family: 'Corpid' ;
+}
+
+html, body{
+	background-color: #f8f8f8;
+}
+
+h1{
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 1.12;
+	color: #000000;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	color: #c30016;
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	color: #585858;
+	font-size: 18px;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 0;
+}
+
+p, li{
+	font-family: 'Roboto', sans-serif;
+	color: #585858;
+	font-size: 15px;
+	line-height: 1.8em;
+	font-weight: 400;
+}
+
+.white{
+	background-color: white;
+}
+
+.red{
+    background-color: #ce0a24;
+    color: white;
+}
+
+.grey{
+	background-color: #e7e7e7;
+	border: solid 1px #dcdcdc;
+}
+
+.light{
+	font-family: 'Corpid';
+	font-weight: 100;
+	color: #8e8e8e;
+	font-size: 18px;
+}
+
+.text-center *, .text-center {
+	text-align: center;
+}
+
+.text-center img{
+	margin: 40px auto;
+	display: block;
+}
+
+.full-width, .full-width .row, img.full-width{
+	width: 100%;
+	max-width: inherit;
+}
+
+.full-width > .row > .large-12{
+    padding: 0;
+}
+
+a.button{
+	cursor: pointer !important;
+	text-decoration: none;
+	text-transform: uppercase;
+	min-width: 220px;
+	margin-top: 15px;
+}
+
+a.button:hover{
+	background-color: #d0021b
+}
+
+.round{
+	border-radius: 50px;
+}
+
+.banner{
+	background-position: center;
+	background-size: cover;
+	background-image: linear-gradient(to right bottom, rgba(10, 11, 10, 0.5), rgba(9, 9, 9, 0.5)), url('images/istanbul.jpg');
+	padding: 100px 0  120px;
+}
+
+.banner h1{
+	font-size: 66px;
+	font-weight: 900;
+	line-height: 1.3;
+	text-align: center;
+    color: #ffffff;
+    margin: 0 0 60px;
+}
+
+.small-padding{
+	padding: 20px 0;
+}
+
+.padding{
+	padding: 50px 0;
+}
+
+.big-padding{
+	padding: 70px 0;
+}
+
+.big-padding-top{
+	padding-top: 70px ;
+}
+
+.no-pading{
+	padding: 0 !important;
+}
+
+.small-margin-bottom{
+	margin-bottom: 20px;
+}
+
+.margin-bottom{
+	margin-bottom: 40px;
+}
+
+.big-margin-bottom{
+    margin-bottom: 80px;
+}
+
+.inverse-margin-bottom{
+	margin-bottom: -15%;
+}
+
+.fit-image img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+
+}
+
+.logistics p{
+	font-family: 'Corpid';
+	font-weight: 100;
+	font-size: 21px;
+	line-height: 1.3em;
+	color: #828282;
+}
+
+.logistics span{
+	font-size: 85px;
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding: 60px 20px 0px;
+}
+
+.logistics .card-section{
+	padding-bottom: 5em;
+}
+
+.logistics .card-section * {
+    color: white
+}
+
+ul{
+	padding: 0
+}
+
+li{
+	list-style: none;
+	line-height: 1.3em;
+	padding: 8px
+}
+
+.sponsor-pack > div {
+    position: relative;
+    width: 33.3%;
+    float: left;
+}
+
+.sponsor-pack > div > div{
+    padding: 7% 6% 7%;
+	position: relative;
+	background: transparent;
+}
+
+.sponsor-pack > div:nth-child(3) > div{
+	background: white;
+	border: none;
+	box-shadow: 0px 0 35px rgba(0,0,0,0.14);
+}
+
+
+.sponsor-pack  ul{
+	margin-top: 15px;
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative;
+
+}
+
+.sponsor-pack  ul::before{
+	content: '';
+	width: 80%;
+	margin-left: -40%;
+	display: block;
+	position: absolute;
+	background-color: #dedede;
+	height: 2px;
+	left: 50%;
+	top: 0
+}
+
+.sponsor-pack ul li::before{
+	content: '';
+	font-family: 'icomoon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	content: "\e901";
+	left: 3px;
+	position: absolute;
+	font-size: 11px;
+	color: #ce0a24;
+	line-height: 19px;
+
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+.vert-hor-center{
+	position: relative;
+}
+
+.vert-hor-center > div{
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.date h3{
+	font-family: 'Corpid';
+	font-size: 25px;
+	font-weight: 800;
+	font-style: normal;
+	line-height: 1.08;
+	color: #3b342d;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+}
+
+.logo{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	top: 0;
+	padding: 13px 19px;
+	box-sizing: border-box;
+	min-width: 340px;
+}
+
+.logo-img img{
+	max-width: 100%;
+	max-height: 120%;
+	max-width: 500px;
+}
+
+
+.contact-btn{
+	position: absolute;
+	right: 0;
+	height: 100%;
+	top: 0;
+	background-color: #e1e1e1;
+	padding: 0;
+}
+
+.contact-btn a{
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-transform: uppercase;
+	line-height: 100%;
+	text-align: center;
+	text-decoration: navajowhite;
+	font-size: 15px;
+	color: #373737;
+	letter-spacing: 1px;
+	opacity: 0.6;
+	padding: 24px;
+    font-weight: 700;
+}
+
+footer h2{
+	font-family: 'Corpid';
+	color: white;
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: inherit;
+}
+
+footer h4{
+	font-family: 'Corpid';
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 800;
+	text-transform: inherit;
+}
+
+footer h2 a{
+	text-decoration: underline;
+	color: white;
+}
+
+.breaker {
+    display: block;
+    background: #ce0a24;
+    height: 2px;
+    width: 10em;
+    margin: 0;
+    padding: 0;
+}
+
+.breaker.center{
+    margin: 30px auto;
+}
+
+img.outline {
+    border: white 7px solid;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px #ce0a24;
+}
+
+.moveup{
+    margin-top: -60px;
+}
+
+.moveup p{
+    padding: 0 4em
+}
+
+.sponsor-pack{
+    display: flex;
+    align-items: flex-end;
+}
+
+.sponsor-pack > div {
+    flex: 1;
+}
+
+/* FROM MEDIUM */
+@media screen and (max-width: 63.9375em) {
+	.top-bar{
+		padding: 0;
+	}
+
+	.top-bar h3{
+		padding: 17px 5px;
+	}
+
+	.logo img{
+		margin: 0 auto;
+		display: block;
+	}
+
+	.logo, .contact-btn{
+		position: relative;
+	}
+
+	.vert-hor-center > div {
+	    width: 90% !important;
+	    margin: 5%;
+	    top: inherit;
+	    left: inherit;
+	    transform: inherit;
+	    position: relative;
+	}
+
+	.sponsor-pack > div {
+	    position: relative;
+	    width: 100%;
+	    float: left;
+	}
+
+	.sponsor-pack > div > div{
+	    padding: 5% 4% 10%;
+		position: relative;
+		background: white;
+		margin-top: 0;
+		margin-bottom: 3%;
+		transform: translateY(0);
+
+	}
+
+	.sponsor-pack > div:nth-child(3) > div{
+		background: white;
+		border: 1px solid #e6e6e6;
+		box-shadow: none;
+	}
+
+	.inverse-margin-bottom{
+		margin-bottom: 0;
+	}
+
+}
+
+/* ONLY SMALL */
+@media screen and (max-width: 39.9375em) {
+	.vert-hor-center{
+		position: relative;
+	}
+
+	.vert-hor-center > div{
+		width: inherit;
+		position: relative;
+		top: inherit;
+		left: inherit;
+		transform: inherit;
+	}
+
+	.top-bar h3{
+		padding: 22px 5px;
+		font-size: 16px;
+		width: 90%;
+		margin: 0 auto;
+		height: 61px;
+	}
+
+	.all-padding-small{
+		padding: 5%
+	}
+
+	.banner h1{
+		font-size: 3em;
+		padding: 0 20px;
+	}
+
+	.contact-btn a{
+		padding: 24px 10px;
+		font-size: 14px;
+	}
+}
+.sponsor {
+	min-height: 500px;
+}
