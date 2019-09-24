@@ -655,7 +655,7 @@ img.outline {
 	text-align: center;
 	/* border: red 1px solid; */
 	align-items: center;
-	margin: 0 40px;
+	margin: 0 3%;
 
 }
 .circle {
@@ -682,17 +682,17 @@ padding: 5%;
 
 }
 
-.impressions{
-	width: 700px;
-	display: flex;
-	overflow-x: scroll;
+
+
+.impression{
+	margin: 0 10%;
 }
 
-.impressions_item{
-	width: 100%;
-	flex: 0 0 auto;
-	padding: 0 5%;
+.impression img{
+	max-height: 450px;
 }
+
+
 
 #slider {
   position: relative;
@@ -705,7 +705,7 @@ padding: 5%;
   position: relative;
   margin: 0;
   padding: 0;
-  /* height: 200px; */
+  height: 200px;
   list-style: none;
 }
 
@@ -717,7 +717,7 @@ padding: 5%;
   padding: 0;
   width: 800px;
   height: 500px;
-  background: #ccc;
+  /* background: #ccc; */
   text-align: center;
   line-height: 300px;
 }
@@ -730,8 +730,8 @@ a.control_prev, a.control_next {
   padding: 4% 3%;
   width: auto;
   height: auto;
-  background: #2a2a2a;
-  color: #fff;
+  /* background: #2a2a2a; */
+  color: #979797;
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
@@ -758,4 +758,50 @@ a.control_next {
   margin: 10px auto;
   width: 160px;
   font-size: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+	.logo{
+		width: 30%;
+	}
+	.contactContainer{
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.logo{
+		width: 40%;
+	}
+	.contactContainer{
+		width: 40%;
+	}
+
+	#slider ul li {
+	
+		width: 500px;
+		height: 300px;
+		
+	  }
+}
+
+@media screen and (max-width: 600px) {
+	.sponsorships div {
+		width: 40%;
+	}
+
+	footer h2 {
+		font-size: 18px;	
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.sponsorships div {
+		width: 100%;
+		padding:5% 20%;
+	}
+
+	.meeting{
+		margin: 0 1%
+	}
 }
